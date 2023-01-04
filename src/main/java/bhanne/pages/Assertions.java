@@ -40,37 +40,52 @@ public class Assertions extends BaseClass {
         System.out.println(elementTop.getText());
 
         WebElement elementBottoms = driver.findElement(bottoms);
-        System.out.println(elementBottoms.getText());
+        String bottom=elementTop.getText();
+        Assert.assertEquals(bottom,"tops");
 
         WebElement elementDresses = driver.findElement(dresses);
-        System.out.println(elementDresses.getText());
+        String dresse=elementDresses.getText();
+        Assert.assertEquals(dresse,"dresses");
 
         WebElement elementOthers = driver.findElement(others);
-        System.out.println(elementOthers.getText());
+        String other=elementOthers.getText();
+        Assert.assertEquals(other,"others");
 
         WebElement elementMarkdown = driver.findElement(markdown);
-        System.out.println(elementMarkdown.getText());
+        String markdowns=elementMarkdown.getText();
+        Assert.assertEquals(markdowns,"markdown");
 
         WebElement elementZine = driver.findElement(zine);
-        System.out.println(elementZine.getText());
+        String zines=elementZine.getText();
+        Assert.assertEquals(zines,"zine");
+
 
         WebElement elementStore = driver.findElement(store);
-        System.out.println(elementStore.getText());
+        String stores=elementStore.getText();
+        Assert.assertEquals(stores,"store");
 
         WebElement elementContact = driver.findElement(contact);
-        System.out.println(elementContact.getText());
+        String contacts=elementContact.getText();
+        Assert.assertEquals(contacts,"contact");
+
 
         WebElement elementSubscribe = driver.findElement(subscribe);
-        System.out.println(elementSubscribe.getText());
+        String subscribes=elementSubscribe.getText();
+        Assert.assertEquals(subscribes,"subscribe");
+
 
         WebElement elementExchanges = driver.findElement(exchanges);
-        System.out.println(elementExchanges.getText());
+        String exchange=elementExchanges.getText();
+        Assert.assertEquals(exchange,"exchanges");
+
 
         WebElement elementShipping = driver.findElement(shipping);
-        System.out.println(elementShipping.getText());
+        String shippings=elementShipping.getText();
+        Assert.assertEquals(shippings,"Shipping");
 
         WebElement elementTerms = driver.findElement(terms);
-        System.out.println(elementTerms.getText());
+        String term=elementTerms.getText();
+        Assert.assertEquals(term,"Terms");
 
 
     }

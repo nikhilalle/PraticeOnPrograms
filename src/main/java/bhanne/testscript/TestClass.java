@@ -24,6 +24,7 @@ public class TestClass extends BaseClass {
     @Test
     public void verifyLogin () throws InterruptedException {
         homePage.createAccount(getDriver());
+        Thread.sleep(3000);
         assertions.verifyTitle();
 
 
