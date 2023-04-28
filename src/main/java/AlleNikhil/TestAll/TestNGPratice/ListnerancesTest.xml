@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/AlleNikhil/TestAll/TestNGPratice/ListenerTestCase.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.TestNGPratice.ListenerTestCase">
+
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

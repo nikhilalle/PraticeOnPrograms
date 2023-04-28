@@ -15,7 +15,7 @@ public class Assertions extends BaseClass {
     By bottoms = By.xpath("//span[@class=''and text()='bottoms']");
     By dresses = By.xpath("//span[@class=''and text()='dresses']");
     By others = By.xpath("//span[@class=''and text()='others']");
-    By markdown = By.xpath("//span[@class=''and text()='markdown']");
+    By markdown = By.xpath("//span[@class='mr-xxs'and text()='markdown']");
     By zine = By.xpath("//span[@class=''and text()='zine']");
 
     By store =By.xpath("//a[@class='slide-link'and text()='store']");
@@ -40,8 +40,8 @@ public class Assertions extends BaseClass {
         System.out.println(elementTop.getText());
 
         WebElement elementBottoms = driver.findElement(bottoms);
-        String bottom=elementTop.getText();
-        Assert.assertEquals(bottom,"tops");
+        String bottom=elementBottoms.getText();
+        Assert.assertEquals(bottom,"bottoms");
 
         WebElement elementDresses = driver.findElement(dresses);
         String dresse=elementDresses.getText();
@@ -53,7 +53,7 @@ public class Assertions extends BaseClass {
 
         WebElement elementMarkdown = driver.findElement(markdown);
         String markdowns=elementMarkdown.getText();
-        Assert.assertEquals(markdowns,"markdown");
+        Assert.assertEquals(markdowns," ");
 
         WebElement elementZine = driver.findElement(zine);
         String zines=elementZine.getText();

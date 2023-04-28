@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="rollnumber" value="501"></parameter>
+    <parameter name="fullname" value="Nikhil"></parameter>
+    <parameter name="divsion" value="B"></parameter>
+    <parameter name="maths_marks" value="97"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/nikhil/testNg/OptionalTestCase.java">
+         <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.testNgAllCases.OptionalTestCase" />
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration Status="Warm">
+
+    <Appenders>
+        <RollingFile ></RollingFile>
+        <Rolling></Rolling>
+        <Appender type="" name=""></Appender>
+    </Appenders>
+    <Loggers></Loggers>
+</Configuration>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="2" parallel="methods">
+    <test verbose="2" preserve-order="true"
+          name="Parallel Testing.java">
+        <classes>
+            <class name="com.matrix.nikhilNew.TestNg.AllTest.Class_E_Parallel"/>
+            <class name="com.matrix.nikhilNew.TestNg.AllTest.Class_F_Parallel"/>
+            <class name="com.matrix.nikhilNew.TestNg.AllTest.Class_C_Groups"/>
+            <class name="com.matrix.nikhilNew.TestNg.AllTest.Class_D_Groups"/>
+        </classes>
+    </test>
+</suite>

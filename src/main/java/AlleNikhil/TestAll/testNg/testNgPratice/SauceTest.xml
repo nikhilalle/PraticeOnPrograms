@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browerName" value="https://www.saucedemo.com"></parameter>
+
+    <parameter name="userPassword" value="secret_sauce"></parameter>
+    <parameter name="user" value="standard_user"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="SauceTest.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.testNgPratice.SauceTest">
+            </class>
+        </classes>
+    </test>
+</suite>

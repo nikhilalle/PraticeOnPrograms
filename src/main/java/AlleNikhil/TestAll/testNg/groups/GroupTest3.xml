@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Regression"/>
+            <include name="sanity"/>
+            <exclude name="smoke"/>
+
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/nikhil/testNg/groups/GroupTest3.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.groups.GroupTest3"> </class>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.groups.GroupTest3">
+            </class>
+        </classes>
+    </test>
+</suite>

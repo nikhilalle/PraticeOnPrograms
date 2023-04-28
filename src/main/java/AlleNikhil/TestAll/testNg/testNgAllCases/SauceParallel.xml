@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="2" parallel="methods">
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/nikhil/testNg/SauceParallelTest.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.testNgAllCases.SauceParallelTest">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifyTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

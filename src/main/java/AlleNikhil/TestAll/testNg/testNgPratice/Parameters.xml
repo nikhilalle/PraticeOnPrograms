@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="userName" value="standard_user"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="ParameterTest.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.testNgPratice.ParameterTest" />
+        </classes>
+    </test>
+   </suite>

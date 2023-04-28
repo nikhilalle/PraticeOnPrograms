@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="4" parallel="classes">
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/nikhil/testNg/ParallelAmazon.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.testNgAllCases.ParallelAmazon">
+
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/nikhil/testNg/ParallelFlipCart.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.testNgAllCases.ParallelFlipCart">
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/nikhil/testNg/ParallelMantra.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.testNgAllCases.ParallelMantra">
+
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/nikhil/testNg/ParallelShopClues.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.TestAll.testNg.testNgAllCases.ParallelShopClues">
+
+            </class>
+        </classes>
+    </test>
+</suite>

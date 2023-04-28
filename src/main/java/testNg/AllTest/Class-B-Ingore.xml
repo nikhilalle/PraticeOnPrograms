@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/JAVA NEW 2022/corejava-selenium-june22/src/main/java/com/matrix/nikhilNew/TestNg/Class_B_Ignore.java">
+        <classes>
+            <class name="com.matrix.nikhilNew.TestNg.AllTest.Class_B_Ignore">
+                <methods>
+                    <include name="group_1"/>
+                    <include name="group_2"/>
+                    <include name="group_3"/>
+                    <include name="group_4"/>
+                    <include name="group_5"/>
+                    <exclude name="group_6"/>
+                    <include name="group_7"/>
+                    <include name="group_8"/>
+                    <include name="group_9"/>
+                    <include name="group_10"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
